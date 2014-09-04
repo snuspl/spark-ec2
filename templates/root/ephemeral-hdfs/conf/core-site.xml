@@ -5,6 +5,12 @@
 
 <configuration>
 
+<property>
+<name>hadoop.security.group.mapping</name>
+<value>org.apache.hadoop.security.ShellBasedUnixGroupsMapping</value>
+</property>
+
+
   <property>
     <name>hadoop.tmp.dir</name>
     <value>/mnt/ephemeral-hdfs</value>
